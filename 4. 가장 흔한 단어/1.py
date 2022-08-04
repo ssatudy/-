@@ -14,8 +14,6 @@ def func(s:str):
     return str_count
 
 paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
-banned = ["hit", 'abc']
+banned = ["hit"]
 banned_str = ''.join(banned)
-print(banned_str)
-
 print(func(paragraph))
