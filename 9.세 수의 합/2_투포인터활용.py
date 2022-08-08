@@ -1,5 +1,4 @@
 import time
-from tracemalloc import start
 
 
 start = time.time()
