@@ -5,6 +5,7 @@ def func(lst):
         lst1 = lst[::]
         lst1.pop(idx)
         num = reduce(lambda x,y:x*y, lst1)
+        # ↑ 모듈 불러와도 시간 초과
         result.append(num)
     return result
 

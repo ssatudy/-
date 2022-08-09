@@ -1,5 +1,5 @@
 
-def func(lst):
+def func(lst):       # a, b에 앞에서 곱한 값, 뒤에서 곱한 값으로 풀어야됨
     a = [1 for i in lst]
     b = [1 for i in lst]
     results = []

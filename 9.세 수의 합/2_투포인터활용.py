@@ -1,7 +1,4 @@
-import time
 
-
-start = time.time()
 def func(lst):
     result = []
     lst = sorted(lst)            # [-4, -1, -1, 0, 1, 2]
@@ -23,10 +20,6 @@ def func(lst):
     return result
 
 print(func([1,2,-2,-1]))
-print("time :", time.time()-start)
 print(func([-1,0,1,2,-1,-4]))
-print("time :", time.time()-start)
 print(func([-1,0,1,0]))
-print("time :", time.time()-start)
 print(func([-2,0,1,1,2]))
-print("time :", time.time()-start)
